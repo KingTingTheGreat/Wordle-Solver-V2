@@ -36,5 +36,13 @@ def useSolver():
         if feedback == '11111':
             break
 
+            
+def playGame():
+    """ allows the user to play this version of Wordle """
+    game = wordlegame(None)
+    game.game_loop_player()
 
+    
+# useSolver()
+# playGame()
 findAverage()
